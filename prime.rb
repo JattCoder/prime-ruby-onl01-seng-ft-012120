@@ -1,6 +1,8 @@
 # Add  code here!
-def prime?(num)
-  if num.prime?
+require 'prime'
+
+def prime? (num)
+  if Prime.prime?(num)
     return true
   else
     return false
